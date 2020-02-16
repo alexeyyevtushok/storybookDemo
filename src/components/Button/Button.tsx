@@ -13,7 +13,7 @@ const Button = ({textValue, classValue}: ButtonProps) => {
         <div className="App">
             <button className={setClass} onClick={() => setActive(!active)}>{textValue || 'click'}</button>
             <br/>
-            {active && <span>hidden text</span>}
+            {active && <span>Button is clicked</span>}
         </div>
     );
 }
