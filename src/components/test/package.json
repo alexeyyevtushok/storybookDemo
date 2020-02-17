@@ -6,13 +6,14 @@
   "homepage": "https://github.com/alexeyyevtushok/storybookDemo#readme",
   "license": "ISC",
   "main": "lib/Button.js",
-  "types": "index.d.ts",
+  "typing": "lib/Button.d.ts",
   "directories": {
     "lib": "lib",
     "test": "test"
   },
   "files": [
-    "lib"
+    "src",
+    "src/*.css"
   ],
   "repository": {
     "type": "git",
@@ -21,11 +22,19 @@
   "scripts": {
     "tsc": "tsc"
   },
+  "include": [
+    "./src/*"
+  ],
   "bugs": {
     "url": "https://github.com/alexeyyevtushok/storybookDemo/issues"
   },
-  "peerDependencies": {
-    "react": "^16.12.0"
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "browserify": "latest",
+    "@types/browserify": "latest",
+    "typescript": "next"
   },
   "gitHead": "540e104d80df34252d7abe174d837b09a64e0c82"
 }
