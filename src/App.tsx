@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from "./components/Button/Button";
+import Button from "./components/Button2/Button";
 
 const App = () => {
   return (

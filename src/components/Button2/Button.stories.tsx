@@ -18,7 +18,7 @@ export const ButtonStory = () => (
 
 ButtonStory.story = {
     parameters: {
-        jest: ['Button.test.tsx']
+        jest: ['Button2.test.tsx']
     },
 };
 
