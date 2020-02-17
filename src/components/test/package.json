@@ -19,7 +19,7 @@
     "url": "git+https://github.com/alexeyyevtushok/storybookDemo.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "tsc": "tsc"
   },
   "bugs": {
     "url": "https://github.com/alexeyyevtushok/storybookDemo/issues"
@@ -27,7 +27,5 @@
   "peerDependencies": {
     "react": "^16.12.0"
   },
-  "scripts": {
-    "tsc": "tsc"
-  }
+  "gitHead": "7b05fb55099cbeebbf638455b29e341fb8b1a8b3"
 }
