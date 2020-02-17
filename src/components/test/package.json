@@ -1,15 +1,15 @@
 {
-  "name": "@alexey-yevtushok/button-default",
+  "name": "test",
   "version": "0.0.0",
   "description": "> TODO: description",
   "author": "Alexey Yevtushok <alexey.yevtushok@gmail.com>",
   "homepage": "https://github.com/alexeyyevtushok/storybookDemo#readme",
   "license": "ISC",
-  "main": "lib/button.js",
-  "typings": "lib/button.d.ts",
+  "main": "lib/test.js",
+  "types": "index.d.ts",
   "directories": {
     "lib": "lib",
-    "test": "src"
+    "test": "__tests__"
   },
   "files": [
     "lib"
@@ -19,13 +19,15 @@
     "url": "git+https://github.com/alexeyyevtushok/storybookDemo.git"
   },
   "scripts": {
-    "tsc": "tsc"
+    "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "bugs": {
     "url": "https://github.com/alexeyyevtushok/storybookDemo/issues"
   },
-  "publishConfig": {
-    "access": "public"
+  "peerDependencies": {
+    "react": "^16.12.0"
   },
-  "gitHead": "3c554413c2a560354427cf9a28e7f3ed2ace9158"
+  "scripts": {
+    "tsc": "tsc"
+  }
 }
