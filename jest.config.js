@@ -1,3 +1,3 @@
 module.exports = {
-    testMatch: ["**/__tests__/**/*.ts?(x)", "**/?(*.)+(test).ts?(x)"]
+    testMatch: ["**/test/**/*.ts?(x)", "**/?(*.)+(test).ts?(x)"]
 };
