@@ -1,13 +1,7 @@
 {
-  "name": "@alexeyyevtushok/button",
-  "version": "0.2.0",
+  "name": "@alexey.yevtushok/button",
+  "version": "0.1.0",
   "publishConfig": {
-    "access": "public",
-    "registry":"https://npm.pkg.github.com/"
-  },
-  "repository": {
-    "type": "git",
-    "url": "ssh://git@github.com:alexeyyevtushok/storybookDemo.git"
-  },
-  "gitHead": "ffc419f27d33227b293e427f0e26a471001b3e39"
+    "access": "public"
+  }
 }
