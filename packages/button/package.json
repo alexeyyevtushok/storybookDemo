@@ -1,6 +1,7 @@
 {
   "name": "@alexey-yevtushok/button",
   "version": "0.0.0",
+  "private": false,
   "description": "> TODO: description",
   "author": "Alexey Yevtushok <alexey.yevtushok@gmail.com>",
   "homepage": "https://github.com/alexeyyevtushok/storybookDemo#readme",
@@ -18,12 +19,10 @@
     "url": "git+https://github.com/alexeyyevtushok/storybookDemo.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "tsc": "tsc"
   },
   "bugs": {
     "url": "https://github.com/alexeyyevtushok/storybookDemo/issues"
   },
-  "scripts": {
-    "tsc": "tsc"
-  }
+  "gitHead": "3c554413c2a560354427cf9a28e7f3ed2ace9158"
 }
