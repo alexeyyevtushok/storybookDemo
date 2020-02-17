@@ -2,5 +2,6 @@
   "packages": [
     "src/components/*"
   ],
+  "npmClient": "npm",
   "version": "independent"
 }
