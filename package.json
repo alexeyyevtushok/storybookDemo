@@ -1,7 +1,7 @@
 {
   "name": "story-proj",
   "version": "0.1.0",
-  "private": false,
+  "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -25,8 +25,8 @@
     "prebuild:storybook": "yarn test:generate-output",
     "storybook": "start-storybook -p 9010 -s public",
     "build-storybook": "build-storybook -s public",
-    "cypress": "cypress open",
-    "deploy": "gh-pages -b master -d build"
+    "publish:win": "lerna run pack:windows",
+    "publish:unix": "lerna run pack:unix"
   },
   "eslintConfig": {
     "extends": "react-app"
