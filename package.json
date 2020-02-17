@@ -25,8 +25,7 @@
     "prebuild:storybook": "yarn test:generate-output",
     "storybook": "start-storybook -p 9010 -s public",
     "build-storybook": "build-storybook -s public",
-    "cypress": "cypress open",
-    "publish": "lerna run tsc && lerna publish from-package"
+    "cypress": "cypress open"
   },
   "eslintConfig": {
     "extends": "react-app"
