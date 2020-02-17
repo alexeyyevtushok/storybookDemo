@@ -1,7 +1,35 @@
 {
-  "name": "@alexey.yevtushok/button",
-  "version": "0.1.0",
+  "name": "@itera-storybook/button",
+  "version": "0.1.1",
+  "description": "> TODO: description",
+  "author": "Alexey Yevtushok <alexey.yevtushok@gmail.com>",
+  "homepage": "https://github.com/alexeyyevtushok/storybookDemo#readme",
+  "license": "ISC",
+  "main": "lib/Button.js",
+  "typing": "lib/Button.d.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexeyyevtushok/storybookDemo.git"
+  },
+  "scripts": {
+    "pack:windows": "tsc && @powershell copy src/*.css lib",
+    "pack:unix": "tsc && cp src/*.css lib"
+  },
+  "bugs": {
+    "url": "https://github.com/alexeyyevtushok/storybookDemo/issues"
+  },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "dependencies": {
+    "typescript": "latest"
+  },
+  "gitHead": "540e104d80df34252d7abe174d837b09a64e0c82"
 }

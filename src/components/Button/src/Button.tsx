@@ -1,10 +1,6 @@
 import React from 'react';
 import './Button.css';
-
-declare interface ButtonProps {
-    textValue?: string
-    classValue?: string
-}
+import { ButtonProps } from './Button.d';
 
 const Button = ({textValue, classValue}: ButtonProps) => {
     const setClass = classValue || 'default'
