@@ -1,6 +1,6 @@
 import React from 'react';
 import Button from './Button';
-import { text, radios } from "@storybook/addon-knobs";
+import { text, radios } from '@storybook/addon-knobs';
 
 export default {
     title: "Button"
