@@ -1,6 +1,6 @@
 {
   "name": "story-proj",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -26,7 +26,7 @@
     "storybook": "start-storybook -p 9010 -s public",
     "build-storybook": "build-storybook -s public",
     "cypress": "cypress open",
-    "deploy": "gh-pages -b master -d build"
+    "publish": "lerna run tsc && lerna publish from-package"
   },
   "eslintConfig": {
     "extends": "react-app"
