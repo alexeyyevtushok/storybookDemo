@@ -1,5 +1,5 @@
 {
-  "name": "test",
+  "name": "@alexey-yevtushok/test",
   "version": "0.0.0",
   "description": "> TODO: description",
   "author": "Alexey Yevtushok <alexey.yevtushok@gmail.com>",
@@ -27,5 +27,5 @@
   "peerDependencies": {
     "react": "^16.12.0"
   },
-  "gitHead": "5aa7a608dded79eeff1d99bacfcee9b683b52076"
+  "gitHead": "540e104d80df34252d7abe174d837b09a64e0c82"
 }
