@@ -2,7 +2,8 @@
   "name": "@alexeyyevtushok/button",
   "version": "0.2.0",
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry":"https://npm.pkg.github.com/"
   },
   "repository": {
     "type": "git",
