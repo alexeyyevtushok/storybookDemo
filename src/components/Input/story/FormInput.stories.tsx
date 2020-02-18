@@ -1,6 +1,6 @@
 import React from 'react';
-import { ButtonBack } from "../../ButtonBack/src/ButtonBack.stories";
-import FormInput from "./FormInput";
+import { ButtonBack } from "../../ButtonBack/story/ButtonBack.stories";
+import FormInput from "../src/FormInput";
 import { text, radios, boolean } from '@storybook/addon-knobs';
 
 export default {

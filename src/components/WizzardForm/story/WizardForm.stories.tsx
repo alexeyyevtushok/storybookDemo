@@ -1,7 +1,7 @@
 import React from 'react';
 import Range from '../../Range/src/Range'
 import { text } from '@storybook/addon-knobs';
-import { default as WizardFormStory } from './WizardForm';
+import { default as WizardFormStory } from '../src/WizardForm';
 
 export default {
     title: "WizardForm"

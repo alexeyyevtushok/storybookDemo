@@ -1,6 +1,6 @@
 import React from 'react';
 import './ButtonDefault.css';
-import {ButtonDefaultProps} from './ButtonDefault.d';
+import { ButtonDefaultProps } from './ButtonDefault.d';
 
 const ButtonDefault = ({onClick, buttonText}: ButtonDefaultProps) => {
     return (

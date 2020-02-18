@@ -19,8 +19,8 @@
     "url": "git+https://github.com/alexeyyevtushok/storybookDemo.git"
   },
   "scripts": {
-    "pack:windows": "rm ./dist -r -fo && tsc && @powershell copy src/*.css lib",
-    "pack:unix": "rm -rf ./dist && tsc && cp src/*.css lib"
+    "pack:windows": "tsc && @powershell copy src/*.css lib",
+    "pack:unix": "tsc && cp src/*.css lib"
   },
   "bugs": {
     "url": "https://github.com/alexeyyevtushok/storybookDemo/issues"

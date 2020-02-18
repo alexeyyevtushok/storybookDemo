@@ -6,7 +6,7 @@ import { ButtonBackProps } from './ButtonBack.d'
 const ButtonBack = ({onClick, buttonText}: ButtonBackProps) => {
     return (
         <div className={'backButtonWrap'}>
-            <button onClick={onClick && onClick}><Arrow color={'black'} />{buttonText || 'Back'}</button>
+            <button onClick={onClick && onClick}><Arrow color={'black'}/>{buttonText || 'Back'}</button>
         </div>
     );
 }

@@ -10,7 +10,8 @@
 
 # production
 /build
-/src/components/Button/lib
+lib/
+/lib
 
 # misc
 .DS_Store

@@ -1,5 +1,5 @@
 import React from 'react';
-import { default as RangeInput } from "./Range";
+import { default as RangeInput } from "../src/Range";
 import { number } from '@storybook/addon-knobs';
 
 export default {

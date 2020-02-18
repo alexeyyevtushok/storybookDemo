@@ -1,6 +1,6 @@
 import React from 'react';
 import { text } from '@storybook/addon-knobs';
-import { default as Button } from "./ButtonBack";
+import { default as Button } from "../src/ButtonBack";
 
 export default {
     title: "ButtonBack"

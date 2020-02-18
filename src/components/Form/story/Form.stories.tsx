@@ -1,8 +1,7 @@
 import React from 'react';
 import ButtonDefault from "../../ButtonDefault/src/ButtonDefault";
-import { ButtonNext } from "../../ButtonDefault/src/ButtonDefault.stories";
 import FormInput from "../../Input/src/FormInput";
-import Form from './Form';
+import Form from '../src/Form';
 import { text, radios, boolean } from '@storybook/addon-knobs';
 
 export default {
