@@ -1,0 +1,25 @@
+.formContent {
+    background: #e9e8e8;
+    padding: 0 !important;
+}
+
+.formContent div {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.formHeader {
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
+    padding: 20px;
+    background: #c7c7c7;
+}
+
+.formContent form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 0;
+}
+

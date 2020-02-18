@@ -18,8 +18,7 @@ export const ButtonStory = () => (
 
 ButtonStory.story = {
     parameters: {
-        jest: ['Button.test.tsx']
+        jest: ['Passable.test.tsx']
     },
 };
-
 

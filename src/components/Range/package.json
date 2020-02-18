@@ -1,12 +1,12 @@
 {
-  "name": "@itera-storybook/button",
+  "name": "@itera-storybook/range",
   "version": "0.1.1",
   "description": "> TODO: description",
   "author": "Alexey Yevtushok <alexey.yevtushok@gmail.com>",
   "homepage": "https://github.com/alexeyyevtushok/storybookDemo#readme",
   "license": "ISC",
-  "main": "lib/Button.js",
-  "typing": "lib/Button.d.ts",
+  "main": "lib/Range.js",
+  "typing": "lib/Range.d.ts",
   "directories": {
     "lib": "lib",
     "test": "test"

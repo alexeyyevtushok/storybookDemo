@@ -1,12 +1,12 @@
 {
-  "name": "@itera-storybook/button",
+  "name": "@itera-storybook/wizard-form",
   "version": "0.1.1",
   "description": "> TODO: description",
   "author": "Alexey Yevtushok <alexey.yevtushok@gmail.com>",
   "homepage": "https://github.com/alexeyyevtushok/storybookDemo#readme",
   "license": "ISC",
-  "main": "lib/Button.js",
-  "typing": "lib/Button.d.ts",
+  "main": "lib/WizardForm.js",
+  "typing": "lib/WizardForm.d.ts",
   "directories": {
     "lib": "lib",
     "test": "test"
