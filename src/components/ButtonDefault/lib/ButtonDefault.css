@@ -4,6 +4,7 @@
     background: #ff8c00d6;
     border-radius: 6px;
     padding: 15px 60px;
+    border: none;
 }
 
 .defaultButtonWrap button:hover{

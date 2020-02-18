@@ -5,6 +5,7 @@
     border-radius: 6px;
     padding: 15px 60px;
     padding-left: 0;
+    border: none;
 }
 
 .backButtonWrap button:hover {

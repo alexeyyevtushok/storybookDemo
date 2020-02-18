@@ -6,7 +6,7 @@ var Form = function (_a) {
     var header = _a.header, child = _a.child;
     return (React.createElement(Container, { fluid: true },
         React.createElement(Row, { className: 'justify-content-center' },
-            React.createElement(Col, { xs: 12, md: 9, lg: 7, xl: 6, className: 'formContent' },
+            React.createElement(Col, { xs: 12, className: 'formContent' },
                 React.createElement("h1", { className: 'formHeader' }, header || 'Form'),
                 React.createElement("form", null, child)))));
 };
