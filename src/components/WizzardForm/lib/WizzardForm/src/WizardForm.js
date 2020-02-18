@@ -12,7 +12,7 @@ var WizardForm = function (_a) {
                 React.createElement("h1", { className: 'formWizardHeader' }, header || 'WizardForm header'),
                 React.createElement("form", null, child),
                 React.createElement("div", { className: 'formWizardButtons' },
-                    React.createElement(ButtonBack, { onClick: nextButtonClick, buttonText: backButtonText || 'Back' }),
-                    React.createElement(ButtonDefault, { onClick: backButtonClick, buttonText: nextButtonText || 'Next' }))))));
+                    backButtonClick && backButtonText && React.createElement(ButtonBack, { onClick: backButtonClick, buttonText: backButtonText || 'Back' }),
+                    React.createElement(ButtonDefault, { onClick: nextButtonClick, buttonText: nextButtonText || 'Next' }))))));
 };
 export default WizardForm;

@@ -25,8 +25,8 @@ const WizardForm = (
                         {child}
                     </form>
                     <div className={'formWizardButtons'}>
-                        <ButtonBack onClick={nextButtonClick} buttonText={backButtonText || 'Back'}/>
-                        <ButtonDefault onClick={backButtonClick} buttonText={nextButtonText || 'Next'}/>
+                        {backButtonClick && backButtonText && <ButtonBack onClick={backButtonClick} buttonText={backButtonText || 'Back'}/>}
+                        <ButtonDefault onClick={nextButtonClick} buttonText={nextButtonText || 'Next'}/>
                     </div>
                 </Col>
             </Row>
