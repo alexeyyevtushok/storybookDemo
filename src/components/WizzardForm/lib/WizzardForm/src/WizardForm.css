@@ -1,0 +1,11 @@
+.formWizardHeader {
+}
+
+.formWizardContent div {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.formWizardButtons {
+    display: flex;
+}
