@@ -1,7 +1,7 @@
 import withStyles from "@material-ui/core/styles/withStyles";
 import React from "react";
 import Slider from "@material-ui/core/Slider";
-import { RangeProps } from './Range.d'
+import { RangeProps } from './Range.d';
 
 const getDots = (max: number) => {
     let dots: any[] = [];
@@ -9,7 +9,7 @@ const getDots = (max: number) => {
         if (i === 1 || i === max) {
             dots.push({
                 value: i,
-                label: i === 1 ? `${i} year` : `${i} years`
+                label: i === 1 ? `${i} month` : `${i} months`
             });
         } else {
             dots.push({
@@ -45,12 +45,12 @@ const RangeModified = withStyles({
     }
 })(Slider);
 
-
-const Range = ({max}: RangeProps) => {
+const Range = ({max, onChange}: RangeProps) => {
     const maxValue: number = max || 6;
     return (
-        <div className={'rangeInput'}>
+        <div>
             <RangeModified
+                onChange={onChange}
                 min={1}
                 max={maxValue}
                 defaultValue={1}
@@ -60,6 +60,6 @@ const Range = ({max}: RangeProps) => {
             />
         </div>
     );
-}
+};
 
 export default Range;

@@ -1,6 +1,6 @@
 {
   "name": "@itera-storybook/button-default",
-  "version": "0.1.2",
+  "version": "0.1.8",
   "description": "> TODO: description",
   "author": "Alexey Yevtushok <alexey.yevtushok@gmail.com>",
   "homepage": "https://github.com/alexeyyevtushok/storybookDemo#readme",
@@ -29,7 +29,8 @@
     "access": "public"
   },
   "dependencies": {
-    "typescript": "latest"
+    "typescript": "latest",
+    "styled-components": "5.0.0"
   },
   "gitHead": "540e104d80df34252d7abe174d837b09a64e0c82"
 }

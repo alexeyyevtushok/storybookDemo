@@ -5,6 +5,6 @@ export interface WizardFormProps {
     header: string,
     nextButtonText: string,
     backButtonText?: string,
-    nextButtonClick: any,
-    backButtonClick?: any
+    nextButtonClick:() => any,
+    backButtonClick?:() => any
 }

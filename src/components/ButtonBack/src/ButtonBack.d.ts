@@ -1,5 +1,5 @@
 export interface ButtonBackProps {
-    onClick: any
+    onClick: () => any
     buttonText: string
 }
 

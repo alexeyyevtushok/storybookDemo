@@ -1,4 +1,4 @@
-import './WizardForm.css';
+/// <reference types="react" />
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { WizardFormProps } from './WizardForm.d';
 declare const WizardForm: ({ child, header, nextButtonText, backButtonText, nextButtonClick, backButtonClick }: WizardFormProps) => JSX.Element;

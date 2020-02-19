@@ -7,7 +7,7 @@ var getDots = function (max) {
         if (i === 1 || i === max) {
             dots.push({
                 value: i,
-                label: i === 1 ? i + " year" : i + " years"
+                label: i === 1 ? i + " month" : i + " months"
             });
         }
         else {
@@ -43,9 +43,9 @@ var RangeModified = withStyles({
     }
 })(Slider);
 var Range = function (_a) {
-    var max = _a.max;
+    var max = _a.max, onChange = _a.onChange;
     var maxValue = max || 6;
-    return (React.createElement("div", { className: 'rangeInput' },
-        React.createElement(RangeModified, { min: 1, max: maxValue, defaultValue: 1, step: 1, marks: getDots(maxValue), valueLabelDisplay: "on" })));
+    return (React.createElement("div", null,
+        React.createElement(RangeModified, { onChange: onChange, min: 1, max: maxValue, defaultValue: 1, step: 1, marks: getDots(maxValue), valueLabelDisplay: "on" })));
 };
 export default Range;
