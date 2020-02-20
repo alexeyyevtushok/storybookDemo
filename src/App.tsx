@@ -1,10 +1,9 @@
 import React from 'react';
-import Button from "./components/Button/Button";
 
 const App = () => {
   return (
     <div className="App">
-      <Button />
+        This is storybook client. To open visit :9010 port
     </div>
   );
 }

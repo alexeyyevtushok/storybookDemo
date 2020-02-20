@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from './Button';
+import Button from '../src/Button';
 import { text, radios } from '@storybook/addon-knobs';
 
 export default {
@@ -18,8 +18,7 @@ export const ButtonStory = () => (
 
 ButtonStory.story = {
     parameters: {
-        jest: ['Button.test.tsx']
+        jest: ['Passable.test.tsx']
     },
 };
-
 
