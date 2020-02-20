@@ -1,5 +1,5 @@
 {
-  "name": "story-proj",
+  "name": "itera-storybook-client",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -31,7 +31,8 @@
     "storybook": "yarn test:generate && start-storybook -p 9010 -s public",
     "build-storybook": "build-storybook -s public",
     "publish:win": "lerna run pack:windows",
-    "publish:unix": "lerna run pack:unix"
+    "publish:unix": "lerna run pack:unix",
+    "publish:npm": "lerna run publish from-package"
   },
   "eslintConfig": {
     "extends": "react-app"

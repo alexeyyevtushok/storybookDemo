@@ -30,7 +30,12 @@ const StyledInput = styled.input`
     font-size: 18px;
 `;
 
-const FormInput = ({withIcon, iconColor, placeholder, header, onChange}: FormInputProps) => {
+const FormInput = ({
+    withIcon,
+    iconColor,
+    placeholder,
+    header, onChange}:
+    FormInputProps) => {
     return (
         <FormInputWrap>
             <FormInputP>{header || 'Fill the input please.'}</FormInputP>
